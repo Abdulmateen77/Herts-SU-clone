@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css");
+
+body,
+html {
+  font-family: "Montserrat", serif;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #47B5FF;
+}
+button,
+.btn {
+  font-family: inherit;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  font-size: 20px;
+  background-color: white;
+  padding: 0.75rem 5vw;
+  box-shadow: 0 0 30px lightgray;
+}
+
+nav span {
+  color: blue;
+}
+
+nav p {
+  font-size: 25px;
+  font-weight: 600;
+  cursor: default;
+}
+
+nav ul {
+  display: flex;
+  align-items: left;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #676767;
+  padding: 0 1rem;
+  transition: 0.1s ease-in-out;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #121212;
+}
+
+nav .btn {
+  padding: 0.5rem 1rem;
+  margin: 0 0 0 0.5rem;
+  border: 1px solid ;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-size: 17px;
+}
+
+.login {
+  background-color: white;
+  color: #FF06B7;
+}
+
+.login:hover {
+  background-color: #FF06B7;
+  color: white;
+  border: 1px solid #FF06B7;
+  border-radius: 5px;
+}
+.society {
+  background-color: #FF06B7;
+  color: white;
+  border: 1px solid #FF06B7;
+  border-radius: 5px;
+}
+
+.society:hover {
+  background-color: #FF06B7;
+}
+hr {
+  background-color: white;
+  border-style: none;
+  height: 2px;
+}
+
+h1 {
+  color: #1363DF;
+  font-size: 70px;
